@@ -18,6 +18,11 @@
     .products-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .cart-container {
+        position: static;
+        top: 0;
+    }
 }
 
 @media screen and (max-width:768px) {
